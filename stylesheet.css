@@ -1,0 +1,42 @@
+.d-flex input{
+    margin:.4rem 0;
+}
+.d-flex button{
+    margin: 1.5rem 1rem;
+    padding: .5rem 2.1rem;
+}
+table .edit{
+    text-align: center;
+}
+table .delete{
+    text-align: center;
+}
+.btnedit{
+    cursor: pointer;
+}
+.btndel{
+    cursor: pointer;
+}
+
+
+/* message style */
+.insert-msg,
+.update-msg,
+.delete-msg{
+    position: absolute;
+    top:-40px;
+    left:0;
+}
+
+.movedown{
+    animation: slideup 3s;
+}
+
+@keyframes slideup{
+    50%{
+        top: 0
+    }
+    100%{
+        top: -40px;
+    }
+}
